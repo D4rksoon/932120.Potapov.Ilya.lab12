@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial;
+    overflow-x: hidden;
 }
 header {
     width:100%;
@@ -25,20 +26,26 @@ a{
 .container {
     margin-left: 70px;
 }
-.header-container {
-    font-size: 32px;
-    margin: 20px 0;
-}
-.calc-container p{
-    font-weight: bold;
+li {
     margin: 5px 0;
 }
-.calc-container output {
-    font-weight: normal;
+.header-container {
+    font-size: 32px;
+}
+.calc-container input {
+    height: 30px;
+    width: 200px;
+}
+.calc-container button {
+    height: 30px;
 }
 footer {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 70px;
     width:100%;
     font-size: 16px;
+    border-top: 1px solid #cbd5e0;
+}
+footer p {
+    padding-top: 10px;
 }
